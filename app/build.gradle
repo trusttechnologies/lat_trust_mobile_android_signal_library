@@ -18,11 +18,26 @@ android {
     }
 }
 
+ext {
+    retrofitVersion = "2.4.0"
+    okhttpVersion = "3.10.0"
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
+    //FIREBASE
     implementation 'com.google.firebase:firebase-core:17.0.0'
     implementation 'com.google.firebase:firebase-messaging:19.0.1'
+    //---------NETWORKING------------------------
+    // -- OKHTTP
+    implementation "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}"
+    implementation "com.squareup.okhttp3:okhttp:${okhttpVersion}"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:${okhttpVersion}"
+    // -- RETROFIT
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    implementation "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+    implementation 'com.google.android.gms:play-services-location:12.0.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
