@@ -1,4 +1,4 @@
-package com.trust.signal;
+package com.trust.signaldemo;
 
 import android.content.Context;
 

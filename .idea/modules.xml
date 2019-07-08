@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lat_trust_mobile_android_signal_library.iml" filepath="$PROJECT_DIR$/lat_trust_mobile_android_signal_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signal/signal.iml" filepath="$PROJECT_DIR$/signal/signal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signal_library/signal_library.iml" filepath="$PROJECT_DIR$/signal_library/signal_library.iml" />
     </modules>
   </component>
 </project>
