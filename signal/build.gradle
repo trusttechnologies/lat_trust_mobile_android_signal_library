@@ -6,16 +6,16 @@ apply plugin: 'com.jfrog.bintray'
 
 ext {
     bintrayRepo = 'signal_library'
-    bintrayName = 'com.trust.signal'
+    bintrayName = 'signal'
 
-    publishedGroupId = 'com.trust.signal'
-    libraryName = 'com.trust.signal'
-    artifact = 'com.trust.signal'
+    publishedGroupId = 'com.trust.signaldemo'
+    libraryName = 'signal'
+    artifact = 'signal'
 
-    libraryDescription = 'inñohn'
+    libraryDescription = 'library'
 
     siteUrl = 'https://github.com/trusttechnologies/lat_trust_mobile_android_signal_library'
-    gitUrl = 'https://github.com/trusttechnologies/lat_trust_mobile_android_signal_library.git'
+    gitUrl  = 'https://github.com/trusttechnologies/lat_trust_mobile_android_signal_library.git'
 
     libraryVersion = '1.0.0'
 
