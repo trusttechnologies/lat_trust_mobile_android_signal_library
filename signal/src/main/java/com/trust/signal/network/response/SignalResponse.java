@@ -1,6 +1,7 @@
 package com.trust.signal.network.response;
 
 import com.google.gson.annotations.SerializedName;
+import com.trust.signal.network.request.SignalRequest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,9 @@ public class SignalResponse {
     @SerializedName("status")
     private String status;
     @SerializedName("message")
-    private List<String> message = new ArrayList<>();
+    private String message;
+    @SerializedName("signal")
+    private SignalResponseDetail signal;
 
     public String getStatus() {
         return status;
@@ -20,11 +23,19 @@ public class SignalResponse {
         this.status = status;
     }
 
-    public List<String> getMessage() {
+    public String getMessage() {
         return message;
     }
 
-    public void setMessage(List<String> message) {
+    public void setMessage(String message) {
         this.message = message;
+    }
+
+    public SignalResponseDetail getSignal() {
+        return signal;
+    }
+
+    public void setSignal(SignalResponseDetail signal) {
+        this.signal = signal;
     }
 }

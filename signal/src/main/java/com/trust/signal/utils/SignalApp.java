@@ -36,6 +36,7 @@ public class SignalApp extends Application {
     }
 
     public SignalApp() {
+        initHawk();
         initTrustID();
         Permissions.checkPermissionsDefault(mActivity, new TrustListener.Permissions() {
             @Override
@@ -84,5 +85,9 @@ public class SignalApp extends Application {
             Log.i(TAG, "getTrustId: " + ex.getMessage());
         }
 
+    }
+
+    private void initHawk() {
+        Hawk.init(mContext).build();
     }
 }
