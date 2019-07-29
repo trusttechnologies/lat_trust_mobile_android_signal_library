@@ -17,8 +17,6 @@ import com.trust.signal.network.response.TokenResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
-import java.util.HashMap;
-import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -29,7 +27,6 @@ import static com.trust.signal.utils.Constants.TOKEN;
 import static com.trust.signal.utils.Constants.TOKEN_ERROR;
 import static com.trust.signal.utils.Constants.TOKEN_TYPE;
 import static com.trust.signal.utils.Constants.TRUSTCREDENTIALS;
-
 
 public class PushService extends FirebaseMessagingService {
     private final String TAG = getClass().getSimpleName();
