@@ -1,1 +1,1 @@
-include ':app', ':mylibrary', ':signal_library', ':signal'
+include ':app', ':mylibrary', ':signal_library', ':signalJava'

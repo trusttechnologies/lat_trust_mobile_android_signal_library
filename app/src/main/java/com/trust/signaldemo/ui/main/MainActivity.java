@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.trust.signal.utils.SignalApp;
+import com.trust.signalJava.utils.SignalApp;
 import com.trust.signaldemo.R;
 
 public class MainActivity extends AppCompatActivity {
